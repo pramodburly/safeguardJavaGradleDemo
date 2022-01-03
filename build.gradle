@@ -14,7 +14,8 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
-	implementation 'com.oneidentity.safeguard:safeguardjava:6.11.+'
+	// alternate option - implementation 'com.oneidentity.safeguard:safeguardjava:6.11.+'
+	implementation 'com.oneidentity.safeguard:safeguardjava:6.11.0.133386'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
